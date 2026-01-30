@@ -11,3 +11,10 @@ Use the **Deploy to Heroku** button above to launch n8n on Heroku. When deployin
 Refer to the [Heroku n8n tutorial](https://docs.n8n.io/hosting/server-setups/heroku/) for more information.
 
 If you have questions after trying the tutorials, check out the [forums](https://community.n8n.io/).
+
+
+## Deploying 
+
+1. First make sure the repo is connected to the heroku remote
+2. `heroku git:remote -a heartandbones-n8n`
+3. Then push main `git push heroku main`
